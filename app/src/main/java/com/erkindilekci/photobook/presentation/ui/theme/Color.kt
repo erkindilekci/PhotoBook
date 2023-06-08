@@ -19,11 +19,11 @@ val HeartRed = Color(0xFFFF4444)
 
 val ColorScheme.topAppBarContentColor: Color
     @Composable
-    get() = if (isSystemInDarkTheme()) Color.DarkGray else Color.White
+    get() = if (isSystemInDarkTheme()) Color.LightGray else Color.White
 
 val ColorScheme.topAppBarBackgroundColor: Color
     @Composable
-    get() = if (isSystemInDarkTheme()) Color.LightGray else TopAppBarColor
+    get() = if (isSystemInDarkTheme()) Color.Black else TopAppBarColor
 
 val ColorScheme.statusBarColor: Color
     @Composable

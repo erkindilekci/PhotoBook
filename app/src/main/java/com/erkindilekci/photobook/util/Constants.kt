@@ -9,4 +9,5 @@ object Constants {
     const val UNSPLASH_DATABASE = "unsplash_database"
 
     const val ITEMS_PER_PAGE = 10
+    const val SEARCH_ITEMS_PER_PAGE = 30
 }

@@ -95,7 +95,7 @@ fun ImageCard(image: Image) {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    modifier = Modifier.weight(8f),
+                    modifier = Modifier.weight(77f),
                     text = buildAnnotatedString {
                         append("Photo by ")
                         withStyle(style = SpanStyle(fontWeight = FontWeight.SemiBold)) {
@@ -109,7 +109,7 @@ fun ImageCard(image: Image) {
                 )
 
                 LikeCounter(
-                    modifier = Modifier.weight(2f),
+                    modifier = Modifier.weight(23f),
                     painter = painterResource(id = R.drawable.ic_heart),
                     likes = "${image.likes}"
                 )

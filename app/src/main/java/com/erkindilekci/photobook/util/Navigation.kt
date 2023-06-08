@@ -5,6 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.erkindilekci.photobook.presentation.listscreen.ListScreen
+import com.erkindilekci.photobook.presentation.searchscreen.SearchScreen
 
 @Composable
 fun Navigation() {
@@ -14,7 +15,7 @@ fun Navigation() {
             ListScreen(navController)
         }
         composable(Screen.Search.route) {
-            //SearchScreen(navController)
+            SearchScreen(navController)
         }
     }
 }
